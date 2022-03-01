@@ -28,6 +28,10 @@ zuul:
     MnopService:
       path: /buy/**
       service-id: BUYERSERVICE
+      
+       SelesService:
+      path: /eCommerceSellerService/**
+      service-id: eCommerceSellerService
 #    skillTechnologiesService:
 #      path: /skillTechService/**
 #      service-id: SKILLTECHNOLOGIESSERVICE
