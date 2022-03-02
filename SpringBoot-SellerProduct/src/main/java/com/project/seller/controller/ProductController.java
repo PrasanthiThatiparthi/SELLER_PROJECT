@@ -29,10 +29,10 @@ import com.project.seller.bean.Product;
 @RequestMapping("/product")
 public class ProductController {
 
-public static final String getall="http://localhost:9596/product/getproduct";
-public static final String create="http://localhost:9596/product/create";
-public static final String putProd="http://localhost:9596/product/updateProduct/";
-public static final String deleteProd="http://localhost:9596/product/delete/";
+public static final String getall="http://localhost:8081/product/getproduct";
+public static final String create="http://localhost:8081/product/create";
+public static final String putProd="http://localhost:881/product/updateProduct/";
+public static final String deleteProd="http://localhost:8081/product/delete/";
 
 
 
